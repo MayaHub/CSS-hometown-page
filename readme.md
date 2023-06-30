@@ -1,0 +1,1 @@
+I completed this project as part of the Scrimba Front End Developer Career Path Module 2, Web dev basics coursework. The objective was to use HTML and CSS to create a layout and design for a hometown informational webpage.
