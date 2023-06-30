@@ -1,5 +1,4 @@
 body {
-    /* border: 3px solid green; */
     background-color: #3AAFB9;
     text-align: center;
     color: #093A3E;
@@ -17,8 +16,6 @@ body {
 }
 
 .cards {
-    /* background-color: #3AAFB9; */
-    /* margin: 25px; */
     display: flex;
     flex-direction: row;
     text-align: center;
