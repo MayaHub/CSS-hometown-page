@@ -1,0 +1,65 @@
+body {
+    /* border: 3px solid green; */
+    background-color: #3AAFB9;
+    text-align: center;
+    color: #093A3E;
+    font-family: 'Handlee', cursive;
+}
+
+.hero {
+    border: 5px solid #64E9EE;
+    background-image: url(images/sac-water-tower.jpg);
+    background-size: cover;
+    padding: 10px 0 300px 0;
+    margin: 25px 15px 0 15px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.cards {
+    /* background-color: #3AAFB9; */
+    /* margin: 25px; */
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.card {
+    width: 500px;
+    padding: 10px;
+    margin: 15px;
+    background-color: #64E9EE;
+    border-radius: 10%;
+}
+
+.card-img {
+    width: 200px;
+    border-radius: 35%;
+    padding: 5px;
+}
+
+.photo-credit {
+    text-align: end;
+    padding: 0 25px 0 0;
+}
+
+.road-trip {
+    background-color: #64E9EE;
+    padding: 10px 25px;
+    margin: 10px 15px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: #093A3E;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-shadow: 2px 2px yellow;
+}
