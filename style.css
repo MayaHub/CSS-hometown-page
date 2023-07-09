@@ -8,8 +8,9 @@ body {
 .hero {
     border: 5px solid #64E9EE;
     background-image: url(images/sac-water-tower.jpg);
+    background-position: center;
     background-size: cover;
-    padding: 10px 0 300px 0;
+    padding: 10px 0 250px 0;
     margin: 25px 15px 0 15px;
     display: flex;
     justify-content: center;
@@ -17,16 +18,17 @@ body {
 
 .cards {
     display: flex;
-    flex-direction: row;
     text-align: center;
+    margin: 0 25px;
+    justify-content: center;
 }
 
 .card {
-    width: 500px;
     padding: 10px;
     margin: 15px;
     background-color: #64E9EE;
     border-radius: 10%;
+    box-shadow: 3px 3px teal; 
 }
 
 .card-img {
@@ -44,10 +46,12 @@ body {
     background-color: #64E9EE;
     padding: 10px 25px;
     margin: 10px 15px;
+    box-shadow: 3px 3px teal;
 }
 
 ul {
     list-style: none;
+    padding-left: 0;
 }
 
 a {
@@ -59,3 +63,12 @@ a {
 a:hover {
     text-shadow: 2px 2px yellow;
 }
+
+/* @media screen and (max-width: 850px) {
+
+    .cards {
+        display: block;
+    }
+
+
+} */
